@@ -17,7 +17,7 @@ require_once('vendor/autoload.php');
 $f3 = Base::instance();
 
 //Define a default route
-$f3->route('GET /', function($f3) {
+$f3->route('GET /', function() {
 
 
 //Display a view page
